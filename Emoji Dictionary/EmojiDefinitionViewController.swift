@@ -10,14 +10,45 @@ import UIKit
 
 class EmojiDefinitionViewController: UIViewController {
 
+    @IBOutlet weak var emojiLabel: UILabel!
+    @IBOutlet weak var emojiDefinitionLabel: UILabel!
+    
     var emoji = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(emoji)
-
+        emojiLabel.text = emoji
+        
+        //"😃", "💩", "🏎", "⛪️", "🍎", "🥑","🖕🏿"
+        
+        if emoji == "😃"{
+            emojiDefinitionLabel.text = "Smiley Face"
+        }
+        
+        if emoji == "💩"{
+            emojiDefinitionLabel.text = "Poopy McPoop Face!!!"
+        }
+        
+        if emoji == "🏎"{
+            emojiDefinitionLabel.text = "Broom Broom!!!"
+        }
+        
+        if emoji == "⛪️"{
+            emojiDefinitionLabel.text = "Go to Church!"
+        }
+        
+        if emoji == "🍎"{
+            emojiDefinitionLabel.text = "Apple Bottom Jeans"
+        }
+        
+        if emoji == "🥑"{
+            emojiDefinitionLabel.text = "Look at my avocado"
+        }
+        
+        if emoji == "🖕🏿"{
+            emojiDefinitionLabel.text = "FU"
+        }
         
     }
-    
 }
