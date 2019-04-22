@@ -20,7 +20,7 @@ class EmojiDefinitionViewController: UIViewController {
         
         emojiLabel.text = emoji
         
-        //"😃", "💩", "🏎", "⛪️", "🍎", "🥑","🖕🏿"
+        //"😃", "💩", "🏎", "⛪️", "🍎", "🥑","🖕🏿", "😜"
         
         if emoji == "😃"{
             emojiDefinitionLabel.text = "Smiley Face"
@@ -48,6 +48,10 @@ class EmojiDefinitionViewController: UIViewController {
         
         if emoji == "🖕🏿"{
             emojiDefinitionLabel.text = "FU"
+        }
+        
+        if emoji == "😜"{
+            emojiDefinitionLabel.text = "Look at my dumb face!!!"
         }
         
     }
