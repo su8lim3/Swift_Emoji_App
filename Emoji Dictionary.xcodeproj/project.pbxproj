@@ -14,6 +14,7 @@
 		1F4933F4226D231200408CCD /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4933F3226D231200408CCD /* EmojiTableViewController.swift */; };
 		1F4933F6226D5B0E00408CCD /* EmojiDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4933F5226D5B0E00408CCD /* EmojiDefinitionViewController.swift */; };
 		1F4933F8226D663300408CCD /* trump.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4933F7226D663300408CCD /* trump.png */; };
+		1F64E843227686A100230A5A /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64E842227686A100230A5A /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1F4933F3226D231200408CCD /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 		1F4933F5226D5B0E00408CCD /* EmojiDefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDefinitionViewController.swift; sourceTree = "<group>"; };
 		1F4933F7226D663300408CCD /* trump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trump.png; path = Assets.xcassets/AppIcon.appiconset/trump.png; sourceTree = "<group>"; };
+		1F64E842227686A100230A5A /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				1F4933E5226D213C00408CCD /* Main.storyboard */,
 				1F4933F3226D231200408CCD /* EmojiTableViewController.swift */,
 				1F4933F5226D5B0E00408CCD /* EmojiDefinitionViewController.swift */,
+				1F64E842227686A100230A5A /* Emoji.swift */,
 				1F4933E8226D213E00408CCD /* Assets.xcassets */,
 				1F4933EA226D213E00408CCD /* LaunchScreen.storyboard */,
 				1F4933ED226D213E00408CCD /* Info.plist */,
@@ -144,6 +147,7 @@
 			files = (
 				1F4933F4226D231200408CCD /* EmojiTableViewController.swift in Sources */,
 				1F4933F6226D5B0E00408CCD /* EmojiDefinitionViewController.swift in Sources */,
+				1F64E843227686A100230A5A /* Emoji.swift in Sources */,
 				1F4933E2226D213C00408CCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
