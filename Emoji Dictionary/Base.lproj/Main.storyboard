@@ -64,18 +64,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Birth Year: 2013" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niH-Ku-EZB">
+                                <rect key="frame" x="146" y="792" width="122" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Category: Transportation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhy-K5-Gu9">
+                                <rect key="frame" x="111" y="756" width="192" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="niH-Ku-EZB" firstAttribute="centerX" secondItem="o7C-ma-IUV" secondAttribute="centerX" id="Fcl-Z2-6MV"/>
                             <constraint firstItem="VRS-a2-XFU" firstAttribute="centerX" secondItem="o7C-ma-IUV" secondAttribute="centerX" id="NAv-jV-VfK"/>
+                            <constraint firstItem="niH-Ku-EZB" firstAttribute="top" secondItem="zhy-K5-Gu9" secondAttribute="bottom" constant="15" id="PgQ-42-EjL"/>
+                            <constraint firstItem="niH-Ku-EZB" firstAttribute="centerX" secondItem="o7C-ma-IUV" secondAttribute="centerX" id="TRM-hs-UNB"/>
+                            <constraint firstItem="zhy-K5-Gu9" firstAttribute="centerX" secondItem="o7C-ma-IUV" secondAttribute="centerX" id="Wjb-UJ-Cij"/>
                             <constraint firstItem="YK0-3M-KAg" firstAttribute="trailing" secondItem="XdB-98-oaR" secondAttribute="trailing" constant="10" id="fJO-sX-xJR"/>
                             <constraint firstItem="VRS-a2-XFU" firstAttribute="top" secondItem="YK0-3M-KAg" secondAttribute="top" constant="20" id="fZk-nl-LCO"/>
                             <constraint firstItem="XdB-98-oaR" firstAttribute="leading" secondItem="YK0-3M-KAg" secondAttribute="leading" constant="10" id="gV9-oX-EIf"/>
                             <constraint firstItem="YK0-3M-KAg" firstAttribute="bottom" secondItem="XdB-98-oaR" secondAttribute="bottom" constant="10" id="jUJ-Wu-UXT"/>
+                            <constraint firstItem="XdB-98-oaR" firstAttribute="top" secondItem="niH-Ku-EZB" secondAttribute="bottom" constant="15" id="kz7-wK-LdR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YK0-3M-KAg"/>
                     </view>
                     <connections>
+                        <outlet property="birthLabel" destination="niH-Ku-EZB" id="faN-Ff-jcC"/>
+                        <outlet property="categoryLabel" destination="zhy-K5-Gu9" id="yXX-7U-9sZ"/>
                         <outlet property="emojiDefinitionLabel" destination="XdB-98-oaR" id="jmY-qc-brf"/>
                         <outlet property="emojiLabel" destination="VRS-a2-XFU" id="Ko2-jc-cJW"/>
                     </connections>
